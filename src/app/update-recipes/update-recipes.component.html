@@ -1,0 +1,64 @@
+<div class="container">
+    <div class="row">
+       
+        <div class="col-6">
+            <label class="col-form-label lblRicetta" for="lblNomeRicetta">Nome ricetta</label>
+            <div class="input-group input-group-sm mb-2">
+                <input type="text" name="nomeRicetta" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" [(ngModel)]="recipeAus.nomeRicetta" />
+            </div>
+
+            <label class="col-form-label lblRicetta" for="lblDesc">Descrizione</label>
+            <textarea class="ms-1 form-control" placeholder="Descrizione" id="txtDesc" name="txtDesc" rows="2" [(ngModel)]="recipeAus.descrizione"></textarea>
+
+            <label class="col-form-label lblRicetta" for="lblIstruzioni">Istruzioni</label>
+            <textarea class="ms-1 form-control" placeholder="Istruzioni" id="txtIstr" name="txtIstr" rows="2" [(ngModel)]="recipeAus.istruzioni"></textarea>
+    
+        
+        </div>
+
+        <div class="col-4">
+            <label class="col-form-label" for="tempo">Tempo di preparazione</label>
+            <div class="input-group input-group-sm mb-2">
+                <input type="text" id="tempo" name="tempo" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" [(ngModel)]="recipeAus.tempo" />
+            </div>
+
+            <label class="col-form-label" for="lblDifficolta">Difficolta</label>
+            <div class="input-group input-group-sm mb-2">
+                <input type="text" name="difficolta" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" [(ngModel)]="recipeAus.difficolta" />
+            </div>
+
+           
+        
+        </div>
+        <label class="col-form-label mt-4" for="lblIng">Ingredienti</label>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col"><strong>Nome ingrediente</strong></th>
+                        <th scope="col"><strong>Quantità</strong></th>
+                        <th scope="col"><strong>Unità di misura</strong></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr *ngFor="let ingrediente of recipeAus.ingredienti; let i = index">
+                        <td>
+                          <input type="text" class="form-control" id="nome{{i}}" name="nome{{i}}" placeholder="Inserisci il nome dell'ingrediente" [(ngModel)]="ingrediente.nome">
+                        </td>
+                        <td>
+                          <input type="number" class="form-control" id="quantita{{i}}" name="quantita{{i}}" placeholder="Inserisci la quantità dell'ingrediente" [(ngModel)]="ingrediente.qta">
+                        </td>
+                        <td>
+                          <input type="text" class="form-control" id="unitaMisura{{i}}" name="unitaMisura{{i}}" placeholder="Inserisci l'unità di misura" [(ngModel)]="ingrediente.udm">
+                        </td>
+                      </tr>
+                    </tbody>
+            </table>
+        </div>
+      <div class="col-4">
+
+      <a type="button" (click)="aggiungi()" class="btn btn-primary btn-sm mt-2">Aggiungi Ingrediente</a>
+      <a type="button" (click)="modifica()" class="btn btn-outline-primary btn-sm ms-2 mt-2">Salva modifiche</a>
+      </div>
+
+    </div>

@@ -1,0 +1,14 @@
+<div class="container px-4 px-lg-5 mt-5">
+  <div  class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+    <div *ngFor="let recipe of recipesListService.recipes" class="card m-3" style="width: 20rem;">
+      <img [routerLink]="['../view-details', recipe.id]" class="card-img-top" src={{recipe.immagine}} alt={{recipe.nomeRicetta}}>
+      <div class="card-body">
+        <h5 class="card-title text-center">{{recipe.nomeRicetta}}</h5>
+        <p class="card-text text-center">{{recipe.descrizione}}</p>
+       <!-- <a type="button" [routerLink]=" (click)="btnDettagli(recipe.id)" class=" ms-2 btn btn-outline-info btn-sm">Dettagli</a>-->
+       <a type="button" [routerLink]="['../update-recipes', recipe.id]" [ngStyle]="{'margin-left': '45px'}" class="btn btn-outline-primary btn-sm">Modifica</a> 
+        <a type="button" (click)="btnCancella(recipe.id)" class="btn btn-outline-danger btn-sm ms-2">Elimina</a>
+      </div>
+    </div>
+  </div>
+</div>

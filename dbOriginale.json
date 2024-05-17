@@ -1,0 +1,121 @@
+{
+    "recipes": [
+      {
+        "id": 1,
+        "nomeRicetta": "Spaghetti all'amatriciana",
+        "descrizione": "Una buonissima amatriciana da gustare con gli amici",
+        "ingredienti": [
+          {
+            "nome": "patate",
+            "qta": "1kg"
+          },
+          {
+            "nome": "panna fresca liquida",
+            "qta": "150g"
+          },
+          {
+            "nome": "farina 00",
+            "qta": "300g"
+          },
+          {
+            "nome": "pepe nero",
+            "qta": "1"
+          },
+          {
+            "nome": "castelmagno",
+            "qta": "200g"
+          },
+          {
+            "nome": "burro",
+            "qta": "75g"
+          },
+          {
+            "nome": " qb sale fino",
+            "qta": ""
+          }
+        ],
+        "istruzioni": "",
+        "tempo": "10 minuti",
+        "difficolta": "facile",
+        "immagine": "assets/img/spaghettiAmatriciana.png"
+      },
+      {
+        "id": 2,
+        "nomeRicetta": "Gnocchi al castelmagno",
+        "descrizione": "gnocchi freschi, formaggio fresco, tutto fresco",
+        "ingredienti": [
+          {
+            "nome": "patate",
+            "qta": "1kg"
+          },
+          {
+            "nome": "panna fresca liquida",
+            "qta": "150g"
+          },
+          {
+            "nome": "farina 00",
+            "qta": "300g"
+          },
+          {
+            "nome": "pepe nero",
+            "qta": "1"
+          },
+          {
+            "nome": "castelmagno",
+            "qta": "200g"
+          },
+          {
+            "nome": "burro",
+            "qta": "75g"
+          },
+          {
+            "nome": " qb sale fino",
+            "qta": ""
+          }
+        ],
+        "istruzioni": "",
+        "tempo": "10 minuti",
+        "difficolta": "facile",
+        "immagine": "assets/img/gnocchi.png"
+      },
+      {
+        "id": 3,
+        "nomeRicetta": "Gnocchi al castelmagno",
+        "descrizione": "gnocchi freschi, formaggio fresco, tutto fresco",
+        "ingredienti": [
+          {
+            "nome": "patate",
+            "qta": "1kg"
+          },
+          {
+            "nome": "panna fresca liquida",
+            "qta": "150g"
+          },
+          {
+            "nome": "farina 00",
+            "qta": "300g"
+          },
+          {
+            "nome": "pepe nero",
+            "qta": "1"
+          },
+          {
+            "nome": "castelmagno",
+            "qta": "200g"
+          },
+          {
+            "nome": "burro",
+            "qta": "75g"
+          },
+          {
+            "nome": " qb sale fino",
+            "qta": ""
+          }
+        ],
+        "istruzioni": "",
+        "tempo": "10 minuti",
+        "difficolta": "facile",
+        "immagine": "assets/img/gnocchi.png"
+      }
+    ]
+  }

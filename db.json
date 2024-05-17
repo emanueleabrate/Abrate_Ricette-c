@@ -1,0 +1,255 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "nomeRicetta": "Spaghetti all'amatriciana",
+      "descrizione": "Una buonissima amatriciana da gustare con gli amici",
+      "ingredienti": [
+        {
+          "nome": "Spaghetti",
+          "qta": 120,
+          "udm": "g"
+        },
+        {
+          "nome": "Guanciale di amatrice",
+          "qta": 50,
+          "udm": "g"
+        },
+        {
+          "nome": "vino bianco",
+          "qta": 15,
+          "udm": "g"
+        },
+        {
+          "nome": "peperoncino",
+          "qta": 1,
+          "udm": ""
+        },
+        {
+          "nome": "pomodori pelati",
+          "qta": 100,
+          "udm": "g"
+        },
+        {
+          "nome": "pecorino romano",
+          "qta": 40,
+          "udm": "g"
+        },
+        {
+          "nome": " sale fino",
+          "qta": null,
+          "udm": "q.b"
+        }
+      ],
+      "istruzioni": "Tagliare il guanciale in pezzi molto fini, cuocere la pasta",
+      "tempo": "10 minuti",
+      "difficolta": "facile",
+      "immagine": "assets/img/spaghettiAmatriciana.png"
+    },
+    {
+      "id": 2,
+      "nomeRicetta": "Gnocchi al castelmagno",
+      "descrizione": "Gnocchi freschi, formaggio fresco, tutto fresco",
+      "ingredienti": [
+        {
+          "nome": "Patate",
+          "qta": 125,
+          "udm": "g"
+        },
+        {
+          "nome": "Panna fresca liquida",
+          "qta": 19,
+          "udm": "g"
+        },
+        {
+          "nome": "Farina 00",
+          "qta": 38,
+          "udm": "g"
+        },
+        {
+          "nome": "Pepe nero",
+          "qta": 1.25,
+          "udm": "g"
+        },
+        {
+          "nome": "Castelmagno",
+          "qta": 25,
+          "udm": "g"
+        },
+        {
+          "nome": "Burro",
+          "qta": 9.5,
+          "udm": "g"
+        },
+        {
+          "nome": "Sale fino qb",
+          "qta": 5,
+          "udm": "g"
+        }
+      ],
+      "istruzioni": "Patate da tagliare a forma di gnocco, mettere tanto formaggio fuso",
+      "tempo": "10 minuti",
+      "difficolta": "facile",
+      "immagine": "assets/img/gnocchi.png"
+    },
+    {
+      "id": 3,
+      "nomeRicetta": "Tiramisù",
+      "descrizione": "Dolce tiramisù da assaporare dopo una cena leggera",
+      "ingredienti": [
+        {
+          "nome": "mascarpone",
+          "qta": 93.75,
+          "udm": "g"
+        },
+        {
+          "nome": "savoiardi",
+          "qta": 31,
+          "udm": "g"
+        },
+        {
+          "nome": "caffè",
+          "qta": 37.5,
+          "udm": "g"
+        },
+        {
+          "nome": "uova",
+          "qta": 32.5,
+          "udm": "g"
+        },
+        {
+          "nome": "zucchero",
+          "qta": 12,
+          "udm": "g"
+        }
+      ],
+      "istruzioni": "",
+      "tempo": "40 minuti",
+      "difficolta": "facile",
+      "immagine": "assets/img/tiramisu.png"
+    },
+    {
+      "id": 4,
+      "nomeRicetta": "Pasta al ragù",
+      "descrizione": "Squisita pasta al ragù ottima per un pranzo domenicale",
+      "ingredienti": [
+        {
+          "nome": "ragù",
+          "qta": 50,
+          "udm": "g"
+        },
+        {
+          "nome": "pomodoro",
+          "qta": 20,
+          "udm": "g"
+        },
+        {
+          "nome": "spaghetti",
+          "qta": 100,
+          "udm": "g"
+        }
+      ],
+      "istruzioni": "Mettere il ragù in un pentolino, mettere la pasta nell'acqua e un po' di sale, cuocere per 15 minuti e aggiungerci il ragù al termine",
+      "tempo": "15 minuti",
+      "difficolta": "facile",
+      "immagine": "https://tuttofabrodoincucina.it/wp-content/uploads/2022/09/SPAGHETTI-AL-RAGU-EV-1024x683.jpg"
+    },
+    {
+      "id": 5,
+      "nomeRicetta": "Salame dolce",
+      "descrizione": "Con cioccolato, biscotti, uova, burro e cacao si può realizzare uno dei dolci senza forno e senza cottura più amati della cucina casalinga: il salame di cioccolato! ",
+      "ingredienti": [
+        {
+          "nome": "Cioccolato fondente",
+          "qta": 25,
+          "udm": "g"
+        },
+        {
+          "nome": "Biscotti secchi",
+          "qta": 31,
+          "udm": "g"
+        },
+        {
+          "nome": "Burro",
+          "qta": 19,
+          "udm": "g"
+        },
+        {
+          "nome": "Rum",
+          "qta": 3.75,
+          "udm": "g"
+        },
+        {
+          "nome": "Uova",
+          "qta": 13,
+          "udm": "g"
+        },
+        {
+          "nome": "Cacao amaro in polvere",
+          "qta": 1.25,
+          "udm": "g"
+        },
+        {
+          "nome": "Zucchero a velo",
+          "qta": 8.75,
+          "udm": "g"
+        }
+      ],
+      "istruzioni": "tritate finemente il cioccolato fondente 1, trasferitelo in una ciotola e scioglietelo in microonde, o a bagnomaria.",
+      "tempo": "30 minuti",
+      "difficolta": "Abbastanza facile",
+      "immagine": "https://www.giallozafferano.it/images/229-22943/Salame-di-cioccolato_450x300.jpg"
+    },
+    {
+      "id": 6,
+      "nomeRicetta": "Arrosto al pollo con patate",
+      "descrizione": "L’arrosto di vitello al forno con patate è un grande classico da gustare a tavola con la famiglia riunita.",
+      "ingredienti": [
+        {
+          "nome": "Sottofesa di vitello",
+          "qta": 150,
+          "udm": "g"
+        },
+        {
+          "nome": "Vino bianco",
+          "qta": 12.5,
+          "udm": "g"
+        },
+        {
+          "nome": "Aglio",
+          "qta": 20,
+          "udm": "g"
+        },
+        {
+          "nome": "Sale fino q.b.",
+          "qta": 10,
+          "udm": "g"
+        },
+        {
+          "nome": "Patate",
+          "qta": 1,
+          "udm": "kg"
+        },
+        {
+          "nome": "Rosmarino",
+          "qta": 2,
+          "udm": "rametti"
+        },
+        {
+          "nome": "Olio extravergine d'oliva ",
+          "qta": 10,
+          "udm": "g"
+        },
+        {
+          "nome": "Pepe nero q.b.",
+          "qta": 5,
+          "udm": "g"
+        }
+      ],
+      "istruzioni": "",
+      "tempo": "30 minuti",
+      "difficolta": "Normale",
+      "immagine": "https://www.giallozafferano.it/images/172-17292/Arrosto-di-vitello-al-forno-con-patate_450x300.jpg"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="row">
+        <!-- First Column: Image -->
+        <div class="col-xs-12 col-md-4">
+            <img class="img-fluid pt-2" src="{{recipe.immagine}}" alt="{{recipe.nomeRicetta}}">
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+            <label class="col-form-label lblRicetta" for="lblNomeRicetta">Nome ricetta</label>
+            <div class="input-group input-group-sm mb-2">
+               <p>{{recipe.nomeRicetta}}</p> 
+            </div>
+
+            <label class="col-form-label lblRicetta" for="lblDesc">Descrizione</label>
+            <p>{{recipe.descrizione}}</p>
+
+            <label class="col-form-label lblRicetta" for="lblIstruzioni">Istruzioni</label>
+           <p>{{recipe.istruzioni}}</p>
+    
+            <label class="col-form-label lblRicetta" for="quantita">Inserisci la quantità:</label>
+            <input class="form-control" min="1" type="number" id="quantita" [(ngModel)]="quantita" (change)="ottieniValore()" />
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+            <label class="col-form-label lblRicetta" for="lblTempo">Tempo di preparazione</label>
+            <div class="input-group input-group-sm mb-2">
+               <p>{{recipe.tempo}}</p>
+            </div>
+
+            <label class="col-form-label lblRicetta" for="lblDifficolta">Difficolta</label>
+            <div class="input-group input-group-sm mb-2">
+               <p>{{recipe.difficolta}}</p> 
+            </div>
+
+            <label class="col-form-label lblRicetta" for="lblIng">Ingredienti</label>
+            <ul>
+                <li class="list-group-item" *ngFor="let ingrediente of recipe.ingredienti">
+                    {{ingrediente.nome}} - {{ingrediente.qta * quantita}} {{ingrediente.udm}}
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+</div> 
